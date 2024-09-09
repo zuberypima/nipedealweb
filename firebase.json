@@ -1,1 +1,39 @@
-{"hosting":{"public":"build/web","ignore":["firebase.json","**/.*","**/node_modules/**"],"rewrites":[{"source":"nipedeal","destination":"/index.html"}]},"flutter":{"platforms":{"android":{"default":{"projectId":"nipedealweb-c9e5f","appId":"1:642351661219:android:7775f624a9bf0481fb3f16","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"nipedealweb-c9e5f","configurations":{"android":"1:642351661219:android:7775f624a9bf0481fb3f16","ios":"1:642351661219:ios:39973b05f7f90444fb3f16","macos":"1:642351661219:ios:39973b05f7f90444fb3f16","web":"1:642351661219:web:340e99e7124a38dafb3f16","windows":"1:642351661219:web:7ec5c7679ed52b85fb3f16"}}}}}}
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "nipedealweb",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "nipedealweb-c9e5f",
+          "appId": "1:642351661219:android:7775f624a9bf0481fb3f16",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "nipedealweb-c9e5f",
+          "configurations": {
+            "android": "1:642351661219:android:7775f624a9bf0481fb3f16",
+            "ios": "1:642351661219:ios:39973b05f7f90444fb3f16",
+            "macos": "1:642351661219:ios:39973b05f7f90444fb3f16",
+            "web": "1:642351661219:web:340e99e7124a38dafb3f16",
+            "windows": "1:642351661219:web:7ec5c7679ed52b85fb3f16"
+          }
+        }
+      }
+    }
+  }
+}
