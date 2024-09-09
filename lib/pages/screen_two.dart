@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:nipedealweb/pages/constants.dart';
 
 class ScreenTwo extends StatefulWidget {
@@ -24,8 +23,7 @@ class _ScreenTwoState extends State<ScreenTwo> {
                 const EdgeInsets.only(left: 10, right: 10, top: 30, bottom: 10),
             child: Text(
               kuhusuNipedel,
-              style: GoogleFonts.montserrat(
-                  fontSize: 20, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
           ),
           imageBox(context, 'patataarifa.jpeg'),
@@ -63,7 +61,7 @@ Widget head_Content(context, String head, contentDetails) {
           child: Text(
             head,
             textAlign: TextAlign.center,
-            style: GoogleFonts.montserrat(fontWeight: FontWeight.bold),
+            style: TextStyle(fontWeight: FontWeight.bold),
           )),
       SizedBox(
         width: MediaQuery.of(context).size.width,
@@ -71,7 +69,7 @@ Widget head_Content(context, String head, contentDetails) {
             child: Text(
           contentDetails,
           textAlign: TextAlign.center,
-          style: GoogleFonts.montserrat(),
+          style: TextStyle(),
         )),
       )
     ],

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "642351661219",
+    "project_id": "nipedealweb-c9e5f",
+    "storage_bucket": "nipedealweb-c9e5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642351661219:android:fcc3f1361a4bcaccfb3f16",
+        "android_client_info": {
+          "package_name": "com.example.nipede"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVI8Gj7UQx3zRPareJHW6Ng2dExzvrSTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642351661219:android:7775f624a9bf0481fb3f16",
+        "android_client_info": {
+          "package_name": "com.example.nipedealweb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVI8Gj7UQx3zRPareJHW6Ng2dExzvrSTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

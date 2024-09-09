@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:nipedealweb/pages/constants.dart';
 import 'package:nipedealweb/pages/dimensions_page.dart';
 
@@ -49,20 +48,17 @@ Widget freePlan(context) {
               padding: const EdgeInsets.all(8.0),
               child: Text(
                 'Free Plan (0.0 /= Tsh)',
-                style: GoogleFonts.montserrat(
-                    color: white, fontWeight: FontWeight.bold),
+                style: TextStyle(color: white, fontWeight: FontWeight.bold),
               ),
             ),
             Divider(),
             Text(
               '1: View all Jobs/ Opportunities.',
-              style: GoogleFonts.montserrat(
-                  color: white, fontWeight: FontWeight.w500),
+              style: TextStyle(color: white, fontWeight: FontWeight.w500),
             ),
             Text(
               '2: Notified for New Jobs/ Opportunity',
-              style: GoogleFonts.montserrat(
-                  color: white, fontWeight: FontWeight.w500),
+              style: TextStyle(color: white, fontWeight: FontWeight.w500),
             )
           ],
         ),
@@ -92,31 +88,26 @@ Widget standardPlan(context) {
               padding: const EdgeInsets.all(8.0),
               child: Text(
                 'Standard Plan (6,000.00 /= Tsh)',
-                style: GoogleFonts.montserrat(
-                    color: white, fontWeight: FontWeight.bold),
+                style: TextStyle(color: white, fontWeight: FontWeight.bold),
               ),
             ),
             Divider(),
             Text(
               '1: View all Jobs/ Opportunities.',
-              style: GoogleFonts.montserrat(
-                  color: white, fontWeight: FontWeight.w500),
+              style: TextStyle(color: white, fontWeight: FontWeight.w500),
             ),
             Text(
               '2: Notified for New Jobs/ Opportunity',
-              style: GoogleFonts.montserrat(
-                  color: white, fontWeight: FontWeight.w500),
+              style: TextStyle(color: white, fontWeight: FontWeight.w500),
             ),
             Text(
               '3: Easy apply mode for 3 Jobs per month ',
-              style: GoogleFonts.montserrat(
-                  color: white, fontWeight: FontWeight.w500),
+              style: TextStyle(color: white, fontWeight: FontWeight.w500),
             ),
             Text(
               '4: Store your CV, Certificates and Other Documents ',
               // textAlign: TextAlign.center,
-              style: GoogleFonts.montserrat(
-                  color: white, fontWeight: FontWeight.w500),
+              style: TextStyle(color: white, fontWeight: FontWeight.w500),
             )
           ],
         ),
@@ -145,34 +136,29 @@ Widget premiumPlan(context) {
               padding: const EdgeInsets.all(8.0),
               child: Text(
                 'Premium Plan (12,000.00 /= Tsh)',
-                style: GoogleFonts.montserrat(
-                    color: white, fontWeight: FontWeight.bold),
+                style: TextStyle(color: white, fontWeight: FontWeight.bold),
               ),
             ),
             Divider(),
             Text(
               '1: View all Jobs/ Opportunities.',
               // textAlign: TextAlign.center,
-              style: GoogleFonts.montserrat(
-                  color: white, fontWeight: FontWeight.w500),
+              style: TextStyle(color: white, fontWeight: FontWeight.w500),
             ),
             Text(
               '2: Notified for New Jobs/ Opportunity',
               // textAlign: TextAlign.center,
-              style: GoogleFonts.montserrat(
-                  color: white, fontWeight: FontWeight.w500),
+              style: TextStyle(color: white, fontWeight: FontWeight.w500),
             ),
             Text(
               '3: Easy apply mode for unlimited Jobs per month ',
               // textAlign: TextAlign.center,
-              style: GoogleFonts.montserrat(
-                  color: white, fontWeight: FontWeight.w500),
+              style: TextStyle(color: white, fontWeight: FontWeight.w500),
             ),
             Text(
               '4: Store your CV, Certificates and Other Documents',
               // textAlign: TextAlign.center,
-              style: GoogleFonts.montserrat(
-                  color: white, fontWeight: FontWeight.w500),
+              style: TextStyle(color: white, fontWeight: FontWeight.w500),
             )
           ],
         ),

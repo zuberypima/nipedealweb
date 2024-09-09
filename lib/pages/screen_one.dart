@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:nipedealweb/pages/constants.dart';
 import 'package:readmore/readmore.dart';
 
@@ -34,7 +33,7 @@ Widget logoBox() {
         children: [
           Text(
             'Habari',
-            style: GoogleFonts.montserrat(
+            style: TextStyle(
                 color: white, fontSize: 20, fontWeight: FontWeight.bold),
           ),
           SizedBox(
@@ -45,8 +44,8 @@ Widget logoBox() {
       ),
       Text(
         'Karibu kwenye NipeDeal ',
-        style: GoogleFonts.montserrat(
-            color: white, fontSize: 20, fontWeight: FontWeight.bold),
+        style:
+            TextStyle(color: white, fontSize: 20, fontWeight: FontWeight.bold),
       ),
       SizedBox(
         height: 30,
@@ -55,9 +54,9 @@ Widget logoBox() {
         nipedealMessage,
         trimMode: TrimMode.Line,
         trimLines: 4,
-        lessStyle: GoogleFonts.montserrat(color: white),
-        moreStyle: GoogleFonts.montserrat(color: white),
-        style: GoogleFonts.montserrat(color: white),
+        lessStyle: TextStyle(color: white),
+        moreStyle: TextStyle(color: white),
+        style: TextStyle(color: white),
       )
       // Text(
       //   nipedealMessage,
