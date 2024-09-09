@@ -19,7 +19,12 @@ class _ScreenOneState extends State<ScreenOne> {
           gradient: LinearGradient(colors: [mainColor, lightmainColor])),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: [logoBox()],
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: logoBox(),
+          )
+        ],
       ),
     );
   }
@@ -43,7 +48,7 @@ Widget logoBox() {
         ],
       ),
       Text(
-        'Karibu kwenye NipeDeal ',
+        'Karibu kwenye NipeDeal  ',
         style:
             TextStyle(color: white, fontSize: 20, fontWeight: FontWeight.bold),
       ),
@@ -58,10 +63,6 @@ Widget logoBox() {
         moreStyle: TextStyle(color: white),
         style: TextStyle(color: white),
       )
-      // Text(
-      //   nipedealMessage,
-      //   style: GoogleFonts.montserrat(color: white),
-      // )
     ],
   );
 }

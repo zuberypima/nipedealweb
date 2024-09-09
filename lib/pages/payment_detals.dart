@@ -74,7 +74,6 @@ Widget standardPlan(context) {
       // height: mediaWidth(context) / 2.2,
       decoration: BoxDecoration(
           color: Colors.lightBlue,
-          //  lightmainColor,
           border: Border.all(
             color: Colors.lightBlue,
           ),
@@ -106,6 +105,11 @@ Widget standardPlan(context) {
             ),
             Text(
               '4: Store your CV, Certificates and Other Documents ',
+              // textAlign: TextAlign.center,
+              style: TextStyle(color: white, fontWeight: FontWeight.w500),
+            ),
+            Text(
+              '5:  CV Writing guidlines ',
               // textAlign: TextAlign.center,
               style: TextStyle(color: white, fontWeight: FontWeight.w500),
             )
@@ -157,6 +161,11 @@ Widget premiumPlan(context) {
             ),
             Text(
               '4: Store your CV, Certificates and Other Documents',
+              // textAlign: TextAlign.center,
+              style: TextStyle(color: white, fontWeight: FontWeight.w500),
+            ),
+            Text(
+              '5:  CV Writing guidlines ',
               // textAlign: TextAlign.center,
               style: TextStyle(color: white, fontWeight: FontWeight.w500),
             )
