@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-Color mainColor = Color.fromRGBO(46, 49, 146, 1);
+Color mainColor = Colors.blue;
+// Color.fromRGBO(46, 49, 146, 1);
 Color lightmainColor = Color.fromRGBO(105, 109, 250, 1);
 
 Color white = Colors.white;

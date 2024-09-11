@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:nipedealweb/pages/about_registration_page.dart';
 import 'package:nipedealweb/pages/constants.dart';
 import 'package:nipedealweb/pages/payment_detals.dart';
 import 'package:nipedealweb/pages/screen_one.dart';
@@ -19,16 +20,24 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         backgroundColor: mainColor,
         elevation: 0,
-        title: Text(
-          'NipeDeal',
-          style: TextStyle(color: white, fontWeight: FontWeight.bold),
+        title: InkWell(
+          child: Text(
+            'NipeDeal',
+            style: TextStyle(color: white, fontWeight: FontWeight.bold),
+          ),
         ),
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 20),
-            child: Text(
-              'Register',
-              style: GoogleFonts.montserrat(color: Colors.white),
+            child: InkWell(
+              onTap: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => AboutRegistrationPage()));
+              },
+              child: Text(
+                'Register',
+                style: GoogleFonts.montserrat(color: Colors.white),
+              ),
             ),
           )
         ],
