@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:nipedealweb/pages/constants.dart';
 import 'package:readmore/readmore.dart';
 
@@ -23,6 +24,9 @@ class _ScreenOneState extends State<ScreenOne> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: logoBox(),
+          ),
+          SizedBox(
+            height: 20,
           )
         ],
       ),
@@ -38,7 +42,7 @@ Widget logoBox() {
         children: [
           Text(
             'Habari',
-            style: TextStyle(
+            style: GoogleFonts.montserrat(
                 color: white, fontSize: 20, fontWeight: FontWeight.bold),
           ),
           SizedBox(
@@ -49,8 +53,8 @@ Widget logoBox() {
       ),
       Text(
         'Karibu kwenye NipeDeal  ',
-        style:
-            TextStyle(color: white, fontSize: 20, fontWeight: FontWeight.bold),
+        style: GoogleFonts.montserrat(
+            color: white, fontSize: 20, fontWeight: FontWeight.bold),
       ),
       SizedBox(
         height: 30,

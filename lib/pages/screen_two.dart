@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:nipedealweb/pages/constants.dart';
 
 class ScreenTwo extends StatefulWidget {
@@ -61,7 +62,7 @@ Widget head_Content(context, String head, contentDetails) {
           child: Text(
             head,
             textAlign: TextAlign.center,
-            style: TextStyle(fontWeight: FontWeight.bold),
+            style: GoogleFonts.montserrat(fontWeight: FontWeight.bold),
           )),
       SizedBox(
         width: MediaQuery.of(context).size.width,
@@ -69,7 +70,7 @@ Widget head_Content(context, String head, contentDetails) {
             child: Text(
           contentDetails,
           textAlign: TextAlign.center,
-          style: TextStyle(),
+          style: GoogleFonts.montserrat(),
         )),
       )
     ],

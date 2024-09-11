@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:nipedealweb/constants/key_words.dart';
 import 'package:nipedealweb/pages/constants.dart';
 import 'package:nipedealweb/pages/dimensions_page.dart';
 
@@ -58,7 +60,8 @@ Widget freePlan(context) {
             ),
             Text(
               '2: Notified for New Jobs/ Opportunity',
-              style: TextStyle(color: white, fontWeight: FontWeight.w500),
+              style: GoogleFonts.montserrat(
+                  color: white, fontWeight: FontWeight.w500),
             )
           ],
         ),
@@ -97,21 +100,25 @@ Widget standardPlan(context) {
             ),
             Text(
               '2: Notified for New Jobs/ Opportunity',
-              style: TextStyle(color: white, fontWeight: FontWeight.w500),
+              style: GoogleFonts.montserrat(
+                  color: white, fontWeight: FontWeight.w500),
             ),
             Text(
               '3: Easy apply mode for 3 Jobs per month ',
-              style: TextStyle(color: white, fontWeight: FontWeight.w500),
+              style: GoogleFonts.montserrat(
+                  color: white, fontWeight: FontWeight.w500),
             ),
             Text(
               '4: Store your CV, Certificates and Other Documents ',
               // textAlign: TextAlign.center,
-              style: TextStyle(color: white, fontWeight: FontWeight.w500),
+              style: GoogleFonts.montserrat(
+                  color: white, fontWeight: FontWeight.w500),
             ),
             Text(
-              '5:  CV Writing guidlines ',
+              '5:  ${cv_writing_guidlines} ',
               // textAlign: TextAlign.center,
-              style: TextStyle(color: white, fontWeight: FontWeight.w500),
+              style: GoogleFonts.montserrat(
+                  color: white, fontWeight: FontWeight.w500),
             )
           ],
         ),
@@ -165,7 +172,7 @@ Widget premiumPlan(context) {
               style: TextStyle(color: white, fontWeight: FontWeight.w500),
             ),
             Text(
-              '5:  CV Writing guidlines ',
+              '5: ${cv_writing_guidlines}',
               // textAlign: TextAlign.center,
               style: TextStyle(color: white, fontWeight: FontWeight.w500),
             )

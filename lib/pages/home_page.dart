@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:nipedealweb/pages/constants.dart';
 import 'package:nipedealweb/pages/payment_detals.dart';
 import 'package:nipedealweb/pages/screen_one.dart';
@@ -22,6 +23,15 @@ class _HomePageState extends State<HomePage> {
           'NipeDeal',
           style: TextStyle(color: white, fontWeight: FontWeight.bold),
         ),
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 20),
+            child: Text(
+              'Register',
+              style: GoogleFonts.montserrat(color: Colors.white),
+            ),
+          )
+        ],
       ),
       body: ListView(
         children: [ScreenOne(), ScreenTwo(), PaymentDetals()],
