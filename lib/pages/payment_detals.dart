@@ -76,7 +76,8 @@ Widget standardPlan(context) {
     child: Container(
       // height: mediaWidth(context) / 2.2,
       decoration: BoxDecoration(
-          color: Colors.lightBlue,
+          color: Color.fromRGBO(46, 49, 146, 1),
+          // Colors.lightBlue,
           border: Border.all(
             color: Colors.lightBlue,
           ),

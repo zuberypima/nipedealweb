@@ -1,4 +1,4 @@
-String cv_writing_guidlines = '';
+String cv_writing_guidlines = 'Provide guidelines for your CV';
 
 // Regisration senteces
 String sentes_1_reg = 'Karibu Kujiunga na NipeDeal';
