@@ -52,7 +52,7 @@ Widget logoBox() {
         ],
       ),
       Text(
-        'Karibu kwenye NipeDeal  ',
+        'Karibu kwenye NipeDeal',
         style: GoogleFonts.montserrat(
             color: white, fontSize: 20, fontWeight: FontWeight.bold),
       ),

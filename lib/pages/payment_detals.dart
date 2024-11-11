@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:nipedealweb/constants/key_words.dart';
 import 'package:nipedealweb/pages/constants.dart';
@@ -18,14 +19,25 @@ class _PaymentDetalsState extends State<PaymentDetals> {
         width: mediaWidth(context),
         height: mediaheight(context),
         color: mainColor,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-            freePlan(context),
-            standardPlan(context),
-            premiumPlan(context)
-          ],
-        ));
+        child: LayoutBuilder(builder: (context, constraints) {
+          if (constraints.maxWidth > 600) {
+            return Row(
+              children: [
+                freePlan(context),
+                standardPlan(context),
+                premiumPlan(context)
+              ],
+            );
+          }
+          return Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              freePlan(context),
+              standardPlan(context),
+              premiumPlan(context)
+            ],
+          );
+        }));
   }
 }
 
